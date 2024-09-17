@@ -83,3 +83,9 @@ kubectl describe pods jenkins-pod| less
 ls
 git init
 ls
+git add .
+git commit -m "kubernetes sample defintion files"
+git config --global user.email "abhyudayreddy8@gmail.com"
+git commit -m "kubernetes sample defintion files"
+git config --global user.name "abhyudayDayam"
+git commit -m "kubernetes sample defintion files"
