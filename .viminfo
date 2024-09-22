@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1726570274,,"wq!"
+|2,0,1726988433,,"wq!"
 :wq1
-|2,0,1726570245,,"wq1"
+|2,0,1726987064,,"wq1"
+:q!
+|2,0,1726984978,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,126 +29,390 @@
 # Registers:
 
 # File marks:
-'0  15  23  ~/pod-definition3.yml
-|4,48,15,23,1726570274,"~/pod-definition3.yml"
-'1  15  23  ~/pod-definition3.yml
-|4,49,15,23,1726570251,"~/pod-definition3.yml"
-'2  21  0  ~/pod-definition2.yml
-|4,50,21,0,1726569065,"~/pod-definition2.yml"
-'3  3  6  ~/pod-definition1.yml
-|4,51,3,6,1726568287,"~/pod-definition1.yml"
-'4  12  17  ~/pod-definition1.yml
-|4,52,12,17,1726568222,"~/pod-definition1.yml"
-'5  12  17  ~/pod-definition1.yml
-|4,53,12,17,1726568222,"~/pod-definition1.yml"
+'0  38  2  ~/deployment4.yml
+|4,48,38,2,1726988433,"~/deployment4.yml"
+'1  11  2  ~/Secret2.yml
+|4,49,11,2,1726988362,"~/Secret2.yml"
+'2  8  4  ~/Secret1.yml
+|4,50,8,4,1726987067,"~/Secret1.yml"
+'3  17  13  ~/pod-definition6.yml
+|4,51,17,13,1726986629,"~/pod-definition6.yml"
+'4  19  0  ~/pod-definition6.yml
+|4,52,19,0,1726986484,"~/pod-definition6.yml"
+'5  19  0  ~/pod-definition6.yml
+|4,53,19,0,1726986484,"~/pod-definition6.yml"
+'6  9  3  ~/Secret1.yml
+|4,54,9,3,1726986213,"~/Secret1.yml"
+'7  10  0  ~/Secret1.yml
+|4,55,10,0,1726986213,"~/Secret1.yml"
+'8  21  0  ~/pod-definition2.yml
+|4,56,21,0,1726985450,"~/pod-definition2.yml"
+'9  32  2  ~/RequestsandLmits2.yml
+|4,57,32,2,1726985004,"~/RequestsandLmits2.yml"
 
 # Jumplist (newest first):
--'  15  23  ~/pod-definition3.yml
-|4,39,15,23,1726570274,"~/pod-definition3.yml"
--'  15  23  ~/pod-definition3.yml
-|4,39,15,23,1726570251,"~/pod-definition3.yml"
--'  1  0  ~/pod-definition3.yml
-|4,39,1,0,1726570074,"~/pod-definition3.yml"
--'  1  0  ~/pod-definition3.yml
-|4,39,1,0,1726570074,"~/pod-definition3.yml"
+-'  38  2  ~/deployment4.yml
+|4,39,38,2,1726988433,"~/deployment4.yml"
+-'  1  0  ~/deployment4.yml
+|4,39,1,0,1726988402,"~/deployment4.yml"
+-'  11  2  ~/Secret2.yml
+|4,39,11,2,1726988362,"~/Secret2.yml"
+-'  11  2  ~/Secret2.yml
+|4,39,11,2,1726988362,"~/Secret2.yml"
+-'  1  0  ~/Secret2.yml
+|4,39,1,0,1726988339,"~/Secret2.yml"
+-'  1  0  ~/Secret2.yml
+|4,39,1,0,1726988339,"~/Secret2.yml"
+-'  8  4  ~/Secret1.yml
+|4,39,8,4,1726987067,"~/Secret1.yml"
+-'  8  4  ~/Secret1.yml
+|4,39,8,4,1726987067,"~/Secret1.yml"
+-'  8  4  ~/Secret1.yml
+|4,39,8,4,1726987067,"~/Secret1.yml"
+-'  8  4  ~/Secret1.yml
+|4,39,8,4,1726987067,"~/Secret1.yml"
+-'  9  3  ~/Secret1.yml
+|4,39,9,3,1726987042,"~/Secret1.yml"
+-'  9  3  ~/Secret1.yml
+|4,39,9,3,1726987042,"~/Secret1.yml"
+-'  9  3  ~/Secret1.yml
+|4,39,9,3,1726987042,"~/Secret1.yml"
+-'  9  3  ~/Secret1.yml
+|4,39,9,3,1726987042,"~/Secret1.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  17  13  ~/pod-definition6.yml
+|4,39,17,13,1726986629,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986609,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  19  0  ~/pod-definition6.yml
+|4,39,19,0,1726986484,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  1  0  ~/pod-definition6.yml
+|4,39,1,0,1726986474,"~/pod-definition6.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  10  0  ~/Secret1.yml
+|4,39,10,0,1726986213,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
+-'  1  0  ~/Secret1.yml
+|4,39,1,0,1726986191,"~/Secret1.yml"
 -'  21  0  ~/pod-definition2.yml
-|4,39,21,0,1726569065,"~/pod-definition2.yml"
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
 -'  21  0  ~/pod-definition2.yml
-|4,39,21,0,1726569065,"~/pod-definition2.yml"
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
 -'  21  0  ~/pod-definition2.yml
-|4,39,21,0,1726569065,"~/pod-definition2.yml"
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
 -'  21  0  ~/pod-definition2.yml
-|4,39,21,0,1726569065,"~/pod-definition2.yml"
--'  1  0  ~/pod-definition2.yml
-|4,39,1,0,1726568565,"~/pod-definition2.yml"
--'  1  0  ~/pod-definition2.yml
-|4,39,1,0,1726568565,"~/pod-definition2.yml"
--'  1  0  ~/pod-definition2.yml
-|4,39,1,0,1726568565,"~/pod-definition2.yml"
--'  1  0  ~/pod-definition2.yml
-|4,39,1,0,1726568565,"~/pod-definition2.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  3  6  ~/pod-definition1.yml
-|4,39,3,6,1726568287,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568270,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  12  17  ~/pod-definition1.yml
-|4,39,12,17,1726568222,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
--'  1  0  ~/pod-definition1.yml
-|4,39,1,0,1726567866,"~/pod-definition1.yml"
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
+-'  21  0  ~/pod-definition2.yml
+|4,39,21,0,1726985450,"~/pod-definition2.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/deployment4.yml
+	*	1726988430	0
+	"	38	2
+	^	38	3
+	.	38	0
+	+	38	0
+
+> ~/Secret2.yml
+	*	1726988361	0
+	"	11	2
+	^	11	3
+	.	11	0
+	+	11	0
+
+> ~/Secret1.yml
+	*	1726987064	0
+	"	8	4
+	^	8	5
+	.	8	4
+	+	9	3
+	+	9	2
+	+	8	4
+
+> ~/pod-definition6.yml
+	*	1726986626	0
+	"	17	13
+	^	17	14
+	.	17	14
+	+	18	3
+	+	16	14
+	+	17	14
+
+> ~/pod-definition2.yml
+	*	1726985449	0
+	"	21	0
+	^	21	0
+	.	20	3
+	+	5	19
+	+	19	20
+	+	1	2
+	+	20	3
+
+> ~/RequestsandLmits2.yml
+	*	1726985003	0
+	"	32	2
+	^	32	3
+	.	32	0
+	+	31	258
+	+	32	0
+
+> ~/RequestsandLmits1.yml
+	*	1726983776	0
+	"	21	2
+	^	21	3
+	.	22	0
+	+	22	0
+
+> ~/DaemonSet1.yml
+	*	1726851948	0
+	"	7	2
+	^	7	3
+	.	7	2
+	+	24	2
+	+	23	27
+	+	3	12
+	+	7	2
+
+> ~/deployment3.yml
+	*	1726849289	0
+	"	25	2
+	^	2	8
+	.	2	7
+	+	25	2
+	+	11	16
+	+	25	0
+	+	2	7
+
+> ~/deployment2.yml
+	*	1726846067	0
+	"	24	27
+	^	24	28
+	.	24	27
+	+	25	2
+	+	19	27
+	+	24	27
+
+> ~/deployment1.yml
+	*	1726843461	0
+	"	25	27
+	^	25	28
+	.	25	27
+	+	26	2
+	+	25	27
+
+> ~/replica-set2.yml
+	*	1726842046	0
+	"	11	12
+	^	11	13
+	.	11	12
+	+	27	3
+	+	23	22
+	+	26	27
+	+	6	19
+	+	3	13
+	+	13	9
+	+	11	12
+
+> ~/replica-set1.yml
+	*	1726657406	0
+	"	25	9
+	^	25	10
+	.	25	9
+	+	16	21
+	+	25	25
+	+	1	2
+	+	26	2
+	+	2	16
+	+	19	8
+	+	20	4
+	+	21	5
+	+	22	6
+	+	23	7
+	+	24	8
+	+	25	9
+
+> ~/replication-controller1.yml
+	*	1726656100	0
+	"	22	27
+	^	22	28
+	.	22	27
+	+	23	3
+	+	22	27
+
+> ~/pod-definition5.yml
+	*	1726654251	0
+	"	19	23
+	^	19	24
+	.	19	23
+	+	21	2
+	+	16	28
+	+	17	13
+	+	20	0
+	+	18	29
+	+	19	23
+
+> ~/namespace1.yml
+	*	1726653529	0
+	"	5	14
+	^	5	15
+	.	5	14
+	+	6	2
+	+	5	14
+
+> ~/pod-definition4.yml
+	*	1726653180	0
+	"	14	23
+	^	14	24
+	.	14	23
+	+	14	23
 
 > ~/pod-definition3.yml
 	*	1726570264	0
@@ -155,16 +421,6 @@
 	.	16	0
 	+	16	2
 	+	16	0
-
-> ~/pod-definition2.yml
-	*	1726569064	0
-	"	21	0
-	^	21	0
-	.	20	3
-	+	5	19
-	+	19	20
-	+	1	2
-	+	20	3
 
 > ~/pod-definition1.yml
 	*	1726568286	0
