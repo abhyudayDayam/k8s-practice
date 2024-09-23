@@ -271,3 +271,71 @@ kubectl get all
 kubectl delete -f deployment4.yml
 git push origin main
 git push -u origin main
+git add .
+git commit -m "g"
+git push -u origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+ls
+vim pod-definition1.yml
+vim service1.yml
+kubectl apply -f pod-defintion1.yml
+kubectl apply -f pod-definition1.yml
+kubectl get pods
+Kubectl get svc
+kubectl get svc
+kubectl appl -f service1.yml
+kubectl apply -f service1.yml
+kubectl get all
+kubectl get pods -o wide
+kubectl describe svc myservice | less
+kubectl delete -f pod-definition1.yml
+kubectl delete -f service1.yml
+ls
+vim deployment1.yml
+kubectl apply -f deployment1.yml
+ls
+vim service1.yml
+kubectl apply -f service1.yml
+kubectl get all
+kubectl get pods -o wide
+kubectl describe sve myservice | less
+kubectl describe svc myservice | less
+kubectl scale --replicas=2 -f deployment1.yml
+kubectl get all
+kubectl get pods -o wide
+kubectl describe svc myservice | less
+kubectl delete -f service1.yml
+kubectl delete -f deployment1.yml
+vim pod-definition1.yml
+kubectl apply -f pod-definition1.yml
+vim service2.yml
+kubectl apply -f service2.yml
+kubectl get all
+kubectl get pods -o wide
+kubectl describe svc newservice | less
+kubectl get nodes
+kubectl get nodes -o wide
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes -o wide
+kubectl get all
+kubectl delete -f service2.yml
+kubectl delete -f pod-definition1.yml
+kubectl applly -f pod-definition1.yml
+kubectl apply -f pod-definition1.yml
+vim service3.yml
+kubectl apply -f service3.yml
+vim service3.yml
+kubectl get all
+kuebctl get pods -o wide
+kubectl get pods -o wide
+kubectl get all
+kubectl describe svc lb-service|less
+kubectl delete -f pod-definition1.yml
+kubectl describe svc lb-service|less
+kubectl apply -f pod-definition1.yml
+kubectl get pods -o wide
+kubectl describe svc lb-service|less
+kubectl delete -f service3.yml
+kubectl delete pod --all
+kubectl delete pods --all
