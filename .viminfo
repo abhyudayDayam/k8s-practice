@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1727095335,,"wq!"
+|2,0,1727694128,,"wq!"
 :wq1
-|2,0,1727088321,,"wq1"
+|2,0,1727694086,,"wq1"
 :q!
 |2,0,1726984978,,"q!"
 
@@ -29,230 +29,337 @@
 # Registers:
 
 # File marks:
-'0  17  2  ~/service3.yml
-|4,48,17,2,1727095335,"~/service3.yml"
-'1  17  2  ~/service3.yml
-|4,49,17,2,1727095161,"~/service3.yml"
-'2  16  14  ~/service2.yml
-|4,50,16,14,1727089997,"~/service2.yml"
-'3  13  2  ~/pod-definition1.yml
-|4,51,13,2,1727089492,"~/pod-definition1.yml"
-'4  13  10  ~/service1.yml
-|4,52,13,10,1727088324,"~/service1.yml"
-'5  22  21  ~/deployment1.yml
-|4,53,22,21,1727088102,"~/deployment1.yml"
-'6  14  14  ~/service1.yml
-|4,54,14,14,1727087220,"~/service1.yml"
-'7  15  14  ~/service1.yml
-|4,55,15,14,1727087220,"~/service1.yml"
-'8  13  2  ~/pod-definition1.yml
-|4,56,13,2,1727086789,"~/pod-definition1.yml"
-'9  13  2  ~/pod-definition1.yml
-|4,57,13,2,1727086503,"~/pod-definition1.yml"
+'0  5  12  ~/project/redis-app-service.yml
+|4,48,5,12,1727694128,"~/project/redis-app-service.yml"
+'1  1  0  ~/project/redis-app-servvice.yml
+|4,49,1,0,1727694088,"~/project/redis-app-servvice.yml"
+'2  12  8  ~/project/voting-app-service.yml
+|4,50,12,8,1727693666,"~/project/voting-app-service.yml"
+'3  17  7  ~/project/worker-app-deployment.yml
+|4,51,17,7,1727693582,"~/project/worker-app-deployment.yml"
+'4  22  9  ~/project/result-app-deployment.yml
+|4,52,22,9,1727693446,"~/project/result-app-deployment.yml"
+'5  17  14  ~/project/result-app-deployment.yml
+|4,53,17,14,1727693313,"~/project/result-app-deployment.yml"
+'6  17  14  ~/project/result-app-deployment.yml
+|4,54,17,14,1727693313,"~/project/result-app-deployment.yml"
+'7  1  0  ~/project/result-app-deployment
+|4,55,1,0,1727693203,"~/project/result-app-deployment"
+'8  14  21  ~/project/postgres-app-service.yml
+|4,56,14,21,1727692942,"~/project/postgres-app-service.yml"
+'9  11  3  ~/project/redis-app-service.yml
+|4,57,11,3,1727692504,"~/project/redis-app-service.yml"
 
 # Jumplist (newest first):
--'  17  2  ~/service3.yml
-|4,39,17,2,1727095335,"~/service3.yml"
--'  17  2  ~/service3.yml
-|4,39,17,2,1727095161,"~/service3.yml"
--'  1  0  ~/service3.yml
-|4,39,1,0,1727094980,"~/service3.yml"
--'  1  0  ~/service3.yml
-|4,39,1,0,1727094980,"~/service3.yml"
--'  16  14  ~/service2.yml
-|4,39,16,14,1727089997,"~/service2.yml"
--'  16  14  ~/service2.yml
-|4,39,16,14,1727089997,"~/service2.yml"
--'  16  14  ~/service2.yml
-|4,39,16,14,1727089997,"~/service2.yml"
--'  16  14  ~/service2.yml
-|4,39,16,14,1727089997,"~/service2.yml"
--'  1  0  ~/service2.yml
-|4,39,1,0,1727089563,"~/service2.yml"
--'  1  0  ~/service2.yml
-|4,39,1,0,1727089563,"~/service2.yml"
--'  1  0  ~/service2.yml
-|4,39,1,0,1727089563,"~/service2.yml"
--'  1  0  ~/service2.yml
-|4,39,1,0,1727089563,"~/service2.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  2  ~/pod-definition1.yml
-|4,39,13,2,1727089492,"~/pod-definition1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  13  10  ~/service1.yml
-|4,39,13,10,1727088324,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  14  14  ~/service1.yml
-|4,39,14,14,1727088308,"~/service1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  22  21  ~/deployment1.yml
-|4,39,22,21,1727088102,"~/deployment1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
--'  15  14  ~/service1.yml
-|4,39,15,14,1727087220,"~/service1.yml"
+-'  5  12  ~/project/redis-app-service.yml
+|4,39,5,12,1727694128,"~/project/redis-app-service.yml"
+-'  11  3  ~/project/redis-app-service.yml
+|4,39,11,3,1727694109,"~/project/redis-app-service.yml"
+-'  1  0  ~/project/redis-app-servvice.yml
+|4,39,1,0,1727694088,"~/project/redis-app-servvice.yml"
+-'  1  0  ~/project/redis-app-servvice.yml
+|4,39,1,0,1727694088,"~/project/redis-app-servvice.yml"
+-'  12  8  ~/project/voting-app-service.yml
+|4,39,12,8,1727693666,"~/project/voting-app-service.yml"
+-'  12  8  ~/project/voting-app-service.yml
+|4,39,12,8,1727693666,"~/project/voting-app-service.yml"
+-'  12  8  ~/project/voting-app-service.yml
+|4,39,12,8,1727693666,"~/project/voting-app-service.yml"
+-'  12  8  ~/project/voting-app-service.yml
+|4,39,12,8,1727693666,"~/project/voting-app-service.yml"
+-'  15  19  ~/project/voting-app-service.yml
+|4,39,15,19,1727693638,"~/project/voting-app-service.yml"
+-'  15  19  ~/project/voting-app-service.yml
+|4,39,15,19,1727693638,"~/project/voting-app-service.yml"
+-'  15  19  ~/project/voting-app-service.yml
+|4,39,15,19,1727693638,"~/project/voting-app-service.yml"
+-'  15  19  ~/project/voting-app-service.yml
+|4,39,15,19,1727693638,"~/project/voting-app-service.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  17  7  ~/project/worker-app-deployment.yml
+|4,39,17,7,1727693582,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  53  ~/project/worker-app-deployment.yml
+|4,39,22,53,1727693561,"~/project/worker-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  22  9  ~/project/result-app-deployment.yml
+|4,39,22,9,1727693446,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693342,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  17  14  ~/project/result-app-deployment.yml
+|4,39,17,14,1727693313,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  22  55  ~/project/result-app-deployment.yml
+|4,39,22,55,1727693256,"~/project/result-app-deployment.yml"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
+-'  1  0  ~/project/result-app-deployment
+|4,39,1,0,1727693203,"~/project/result-app-deployment"
 
 # History of marks within files (newest to oldest):
+
+> ~/project/redis-app-service.yml
+	*	1727694127	0
+	"	5	12
+	^	5	13
+	.	5	13
+	+	15	2
+	+	11	20
+	+	13	0
+	+	12	5
+	+	11	16
+	+	13	11
+	+	14	18
+	+	7	3
+	+	5	13
+
+> ~/project/redis-app-servvice.yml
+	*	1727694086	0
+	"	1	0
+
+> ~/project/voting-app-service.yml
+	*	1727693663	0
+	"	12	8
+	^	12	9
+	.	12	8
+	+	16	2
+	+	15	19
+	+	12	8
+
+> ~/project/worker-app-deployment.yml
+	*	1727693580	0
+	"	17	7
+	^	17	8
+	.	17	7
+	+	2	19
+	+	22	17
+	+	17	7
+
+> ~/project/result-app-deployment.yml
+	*	1727693445	0
+	"	22	9
+	^	22	10
+	.	22	10
+	+	23	2
+	+	19	11
+	+	22	19
+	+	8	4
+	+	17	9
+	+	14	2
+	+	15	4
+	+	16	6
+	+	17	6
+	+	18	8
+	+	19	4
+	+	20	6
+	+	21	8
+	+	22	10
+
+> ~/project/result-app-deployment
+	*	1727693202	0
+	"	1	0
+
+> ~/project/postgres-app-service.yml
+	*	1727692940	0
+	"	14	21
+	^	14	22
+	.	14	21
+	+	15	2
+	+	14	21
+
+> ~/project/result-app-service.yml
+	*	1727692009	0
+	"	15	19
+	^	15	20
+	.	15	19
+	+	16	2
+	+	15	19
+
+> ~/project/postgres-app-deployment.yml
+	*	1727690365	0
+	"	31	0
+	^	31	0
+	.	31	0
+	+	29	25
+	+	18	26
+	+	20	17
+	+	29	24
+	+	3	6
+	+	31	0
+
+> ~/project/redis-app-deployment.yml
+	*	1727689611	0
+	"	22	21
+	^	22	22
+	.	22	21
+	+	2	19
+	+	22	21
+
+> ~/project/voting-app-deployment.yml
+	*	1727687930	0
+	"	22	51
+	^	22	52
+	.	22	17
+	+	23	2
+	+	5	29
+	+	14	11
+	+	22	17
 
 > ~/service3.yml
 	*	1727095334	0

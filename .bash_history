@@ -339,3 +339,70 @@ kubectl describe svc lb-service|less
 kubectl delete -f service3.yml
 kubectl delete pod --all
 kubectl delete pods --all
+git add .
+git commit -m "h"
+git push origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+ls
+mkdir project
+ls
+cd project
+vim voting-app-deployment.yml
+vim result-app-deployment.yml
+vim redis-app-deployment.yml
+vim postgres-app-deployment.yml
+vim worker-app-deployment.yml
+ls
+vim worker-app-deployment.yml
+vim voting-app-service.yml
+vim result-app-service.yml
+vim redis-app-service.yml
+vim postgres-app-service.yml
+ls
+cd ..
+ls
+kubectl apply -f project/
+ls
+cd porject
+cd project
+ls
+kuebctl apply -f voting-app-deployment.yml
+kubectl apply -f voting-app-deployment.yml
+kubectl apply -f result-app-deployment.yml
+vim result-app-deployment
+rm -rf result-app-deployment
+ls
+vim result-app-deployment.yml
+kubectl apply -f result-app-deployment.yml
+vim result-app-deployment.yml
+kubectl apply -f result-app-deployment.yml
+kubectl apply -f redis-app-deployment.yml
+kubectl apply -f postgres-app-deployment.yml
+kubectl apply -f worker-app-deployment.yml
+vim worker-app-deployment.yml
+kubectl apply -f worker-app-deployment.yml
+kubectl apply -f voting-app-service.yml
+vim voting-app-service.yml
+kubectl apply -f voting-app-service.yml
+kubectl apply -f result-app-service.yml
+kubectl apply-f redis-app-service.yml
+kubectl apply -f redis-app-service.yml
+kubectl apply -f postgres-app-service.yml
+cd ..
+kubectl apply -f project/
+kubectl get pods
+kubectl get deployments
+kubectl get svc
+cd project
+ls
+vim redis-app-servvice.yml
+rm -rf redis-app-servvice.yml
+vim redis-app-service.yml
+kubectl apply -f redis-app-service.yml
+d ..
+cd ..
+kubectl get svc
+kubectl apply -f project/
+kubectl get pods -o wide
+kubectl describe svc voting-app-service|less
