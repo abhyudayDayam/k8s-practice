@@ -406,3 +406,100 @@ kubectl get svc
 kubectl apply -f project/
 kubectl get pods -o wide
 kubectl describe svc voting-app-service|less
+git add .
+git commit -m "i"
+git push origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+curl -L https://github.com/kubernetes/kompose/releases/download/v1.18.0/kompose-linux-amd64 -o kompose
+chmod +x kompose
+sudo mv ./kompose /usr/local/bin/kompose
+kompose version
+mkdir kompose
+cd kompose
+ls
+vim docker-compose.yml
+ls
+kompose convert
+ls
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+kubectl label nodes gke-cluster-1-default-pool-b6747675-56qt slave1=intelliqit1 
+vim NodeAffinity1.yml
+kubectl apply -f NodeAffinity1.yml
+kubectl get pods -o wwid
+kubectl get pods -o wide
+kubectl delete -f NodeAffinity1.yml
+vim NodeAffinity2.yml
+kubectl apply -f NodeAffinity2.yml
+kubectl get all
+kubectl get pods -o wide
+ls
+vim service2.yml
+kubcelt apply -f service2.yml
+kubectl apply -f service2.yml
+vim service2.yml
+kubectl get pods -o wide
+kubectl describe svc newservice | less
+kubectl gte nodes -o wiide
+kubectl get nodes -o wiide
+kubectl get nodes -o wide
+kubectl delete -f service2.yml
+kubectl delete  -f NodeAffinity2.yml
+kubectl get nodes
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-56qt slave1=intelliqit1:NoSchedule
+kubectl apply -f pod-definition2.yml
+kubectl get pods -o wide
+kubectl get nodes
+kubectl apply -f deployment2.yml
+kubectl get deployments
+kubectl gte pods -o wide
+kubectl gett pods -o wide
+kubectl get pods -o wide
+kubectl delete -f deployment2.yml
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-56qt slave1=intelliqit1:NoSchedule-
+kubectl get pods -o wide
+kubectl delete -f pod-definition2.yml
+kubectl get nodes
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-56qt slave1=intelliqit1:NoSchedule
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-bk18 slave2=intelliqit2:NoSchedule
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-k5x9 slave3=intelliqit3:NoSchedule
+kubectl apply -f pod-definition1.yml
+kubectl apply -f pod-definition2.yml
+kubectl get pods
+kubectl get pods -o wide
+kubectl apply -f deployment1.yml
+kubectl gget pods
+kubectl get pods
+kubectl delete all --all
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+vim Tolerations1.yml
+kubectl apply -f Tolerations1.yml
+kubectl get pods -o wide
+kubectl delete -f Tolerations1.yml
+vim Tolerations2.yml
+Kubectl apply -f Tolerations2.yml
+kubectl apply -f Tolerations2.yml
+kubectl get pods
+kubectl get pods -o wide
+kubectl delete -f Tolerations2.yml
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-56qt slave1=intelliqit1:NoSchedule-
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-bk18 slave2=intelliqit2:NoSchedule-
+kubectl taint nodes gke-cluster-1-default-pool-b6747675-k5x9 slave3=intelliqit3:NoSchedule-
+kubectl get all
+helm version
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+helm version
+helm create mynginx
+ls
+cd mynginx
+ls
+vim values.yaml
+cd ..
+ls
+helm install myapp mynginx/
+kubcetl get all
+kubectl get all
