@@ -1,141 +1,3 @@
-gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
-kubectl get nodes
-gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
-kubectl get nodes
-kubectl get nodes -o  wide
-kubectl describe nodes gke-cluster-1-default-pool-7d06ec91-m42z
-kubectl describe nodes gke-cluster-1-default-pool-7d06ec91-m42z | less
-kubectl run --image nginx webserver
-kubectl get pods
-kubectl get pods -o wide
-kubectl get nodes
-kubectl describe pods webserver | less
-kubectl delete pods webserver
-kubectl get pods
-kubectl run --image httpd httpdserver
-kubectl get pods
-gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
-kubectl get nodes
-kubectl get nodes -o wide
-kubectl describe nodes gke-cluster-1-default-pool-96d4e808-85w4
-kubectl describe nodes gke-cluster-1-default-pool-96d4e808-85w4 | less
-kubectl run --image nginx webserver
-kubectl get pods
-kubectl get pods -o wide
-kubctl get nodes
-kubectl get nodes
-kubectl describe pods webserver | less
-kubectl delete pods webserver
-kubectl run ku
-kubectl run  --image httpd httpdserver
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods httpdserver -o wide | less
-kubectl describe pods httpdserver | less
-kubectl delete pods httpdserver
-kuebctl get pods
-kubectl get pods
-kubectl run --image mysql mydb -env MYSQL_ROOT_PASSWORD=intelliqit
-kubectl run --image mysql mydb --env MYSQL_ROOT_PASSWORD=intelliqit
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods mydb | less
-kubectl exec -it mydb -- bash
-kubectl delete pods mydb
-ls -l
-vim pod-definition1.yml
-kubectl apply -f pod-definition1.yml
-vim pod-definition1.yml
-kubectl apply -f pod-definition1.yml
-kubecl get pods
-kubectl get pods
-kubectl get pods -o wide
-kubectl delete -f pod-definition1.yml
-ls
-kubectl apply -f pod-definition1.yml
-kubectl get pods
-kubectl get pods -o wide
-kubectl delete -f pod-definition1.yml
-vim pod-definition2.yml
-kubectl apply -f pod-definition2.yml
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods postgres-pod | less
-kubectl delete -f pod-definition2.yml
-kubectl get pods
-kubectl apply -f pod-definition1.yml
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods nginx-pod | less
-kubectl delete -f pod-definition1.yml
-kuebctl get pods
-kubectl get pods
-vim pod-definition3.yml
-kubectl apply -f pod-definition3.yml
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods jenkins-pod| less
-kubectl get pods
-kubectl get pods -o wide
-kubectl describe pods jenkins-pod| less
-kubectl get nodes -o wide
-kubectl describe pods jenkins-pod| less
-ls
-git init
-ls
-git add .
-git commit -m "kubernetes sample defintion files"
-git config --global user.email "abhyudayreddy8@gmail.com"
-git commit -m "kubernetes sample defintion files"
-git config --global user.name "abhyudayDayam"
-git commit -m "kubernetes sample defintion files"
-git add .
-git commit -m "a"
-git remote add origin https://github.com/abhyudayDayam/k8s-practice.git
-git branch -M main
-git push -u origin main
-git remote add origin https://github.com/abhyudayDayam/k8s-practice.git
-git branch -M main
-git push -u origin main
-ls
-gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
-kubectl get nodes
-ls
-vim pod-definition4.yml
-kubectl apply -f pod-definition4.yml
-kubectl get pods
-vim pod-definition4.yml
-kubectl get namespace
-vim namespace1.yml
-kubectl apply -f namespace1.yml
-kubectl get ns
-kubectl get namespaces
-vim pod-definition5.yml
-kubectl apply -f pod-definition5.yml
-kubectl get pods
-kubectl delete -f pod-definition4.yml
-kubectl get pods
-kuebctl get ns
-kubectl get ns
-kubectl get pods
-kubectl get pods -n test-ns
-kubectl get pods -n test-ns -o wide
-kubectl get nodes
-kubectl get nodes -o wide
-kubectl delete -f pod-definition5.yml
-vim replication-controller1.yml
-kubectl apply -f replication-controller1.yml
-vim replication-controller1.yml
-kubectl get rc
-kubectl get replicationcontrolleer
-kubectl get replicationcontroller
-kubectl get pods
-kubectl get pods -o wide
-kubectl get nodes -o wide
-kubectl delete -f replication-controller1.yml
-vim replica-set1.yml
-kubectl apply -f replica-set1.yml
-vim replica-set1.yml
 kubectl apply -f replica-set1.yml
 vim replica-set1.yml
 kubectl apply -f replica-set1.yml
@@ -503,3 +365,151 @@ ls
 helm install myapp mynginx/
 kubcetl get all
 kubectl get all
+git add .
+git commit -m "j"
+git push origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+ls
+helm create tomcat
+ls
+rm -rf tomcat
+ls
+helm create mytomcat
+ls
+cd mytomcat
+ls
+vim values.yaml
+cd ..
+cd mytomcat
+ls
+vi values.yaml
+cd ..
+helm install mytomcat/
+helm install myapp mytomcat/
+kubectl get all
+kubectl describe pods pod/myapp-mytomcat-6645cbc57f-98nlk | less
+kubectl describe pods myapp-mytomcat-6645cbc57f-98nlk | less
+helm uninstall myapp
+ls
+cd mytomcat
+ls
+vim values.yaml
+hellm version
+helm version
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+helm version
+vim values.yaml
+cd ..
+helm install myapp mytomcat/
+kubectl get  all
+helm uninstall myapp
+helm create myjenkins
+cd myjenkins
+ls
+vim values.yaml
+cd ..
+helm install newjenkins myjenkins/
+kubectl get all
+kubectl describe pods newjenkins-myjenkins-7ddc99b5b8-d5d97|less
+helm uninstal newjenkins
+helm uninstall newjenkins
+ls
+cd myjenkins
+ls
+cd templates
+ls
+vim deployment.yaml
+helm repo add groundhog2k https://groundhog2k.github.io/helm-charts/
+helm install my-release groundhog2k/wordpress
+kubectl get all
+ls
+cd ..
+ls
+helm install myapp mynginx/
+kubectl get all
+helm create myhttpd 
+cd myhttpd/
+vim values.yaml
+helm install httpd myhttpd/
+cd ..
+helm install httpd myhttpd/
+kubectl get all
+helm uninstall httpd
+cd myhttpd
+ls
+vim values.yaml
+cd ..
+helm install httpd myhttpd/
+kubectl get all
+helm list -a
+helm uninstall myapp
+helm uninstall wordpress
+kubectl get all
+helm uninstall my-release
+kubectl get all
+helm uninstall httpd
+helm create newtomcat
+cd newtomcat/
+vim values.yaml
+cd ..
+helm install tomcat newtomcat/
+kubectl get all
+helm uninstall tomcat
+helm create newjenkins
+cd newjenkins/
+ls
+vim values.yaml
+cd ..
+helm install jenkins newjenkins/
+kubectl get all
+helm uninstall jenkins
+cd newjenkins
+ls
+vim values.yaml
+ls
+cd ..
+ls
+helm install tomcat newtomcat/
+kubectl get all
+kubectl describe pods tomcat-newtomcat-5946c6b9d9-6zmm4 | less
+helm uninstall tomcat
+cd newtomact
+cd newtomcat
+ls
+vim values.yaml
+cd ..
+helm install tomcat newtomcat/
+kubectl get all
+helm uninstall tomcat
+kuebctl get all
+kubectl get all
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+vim Volumes1.yml
+kubectl apply -f Volumes1.yml
+vim Volumes1.yml
+kubectl apply -f Volumes1.yml
+kubectl get pods
+kubectl exec -it redis-pod -- bash
+kubectl get pods
+kubectl exec -it redis-pod -- bash
+kubectl get pods
+kubectl exec -it redis-pod -- bash
+kubectl delete -f Volumes1.yml
+ls
+kubectl get nodes
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+vim Volumes2.yml
+kubectl apply -f Volumes2.yml
+vim Volumes2.yml
+kubectl apply -f Volumes2.yml
+kubectl get pods
+kubectl exec -it mysql-pod -- bash
+kubectl get podss
+kubectl get pod
+kubectl exec -it mysql-pod -- bash
+kubectl get pods
+kubectl exec -it mysql-pod -- bash
+kubectl delete -f Volumes2.yml
