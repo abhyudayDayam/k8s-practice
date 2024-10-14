@@ -1,28 +1,3 @@
-kubectl apply -f replica-set1.yml
-vim replica-set1.yml
-kubectl apply -f replica-set1.yml
-kubectl get pods
-kubectl get rs
-kubectl get pods -o wide
-kubectl get nodes -o wide
-kubectl delete -f replica-set1.yml
-ls
-gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
-kubectl get nodes
-ls
-vim replica-set2.yml
-kubectl get ns
-ls
-kubectl apply -f namespace1.yml
-kubectl get ns
-vim replica-set2.yml
-kubectl apply -f replica-set2.yml
-vim replica-set2.yml
-kubectl apply -f replica-set2.yml
-vim replica-set2.yml
-kubectl apply -f replica-set2.yml
-vim replica-set2.yml
-kubectl apply -f replica-set2.yml
 kubectl get rs
 kubectl get rs -n test-ns
 kubectl get pods -n test-ns
@@ -513,3 +488,31 @@ kubectl exec -it mysql-pod -- bash
 kubectl get pods
 kubectl exec -it mysql-pod -- bash
 kubectl delete -f Volumes2.yml
+git add .
+git commit -m "j"
+git push origin main
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+ls
+vim Autoscalling.yml
+kubectl apply -f Autoscalling.yml
+kubectl get all
+kubectl autoscale deployment php-apache --cpu-percent=50 --min=1 --max=10
+kubectl get hpa
+kubectl get nodes
+gcloud container clusters get-credentials cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get all
+ls
+kubectl get hpa
+kubectl get pods
+kubectl get hpa --watch
+kubectl delete hpa php-apache
+kubectl delete pods lg
+kubectl run -i --tty lg --image=busybox -- sh -c "while sleep 0.01;do wget -q -o http://php-apache;done"
+kuebctl delete -f Autoscalling.yml
+kubectl delete -f Autoscalling.yml
+vim Autoscalling2.yml
+kubectl autoscale deployment nginx-deployment --cpu-percent=50 --min=1 --max=20
+kubectl apply -f Autoscallin2.yml
+kubectl apply -f Autoscalling2.yml
+kubectl autoscale deployment nginx-deployment --cpu-percent=50 --min=1 --max=20
+kubectl get hpa
