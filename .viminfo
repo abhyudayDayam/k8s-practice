@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1728918792,,"wq!"
+|2,0,1729251151,,"wq!"
 :q!
 |2,0,1727777510,,"q!"
 :wq1
@@ -32,230 +32,260 @@
 |3,1,1,1,1,0,1727862700,"    author: intelliqit"
 
 # File marks:
-'0  1  2  ~/Autoscalling2.yml
-|4,48,1,2,1728918792,"~/Autoscalling2.yml"
-'1  38  2  ~/Autoscalling.yml
-|4,49,38,2,1728906033,"~/Autoscalling.yml"
-'2  3  6  ~/Volumes2.yml
-|4,50,3,6,1728301178,"~/Volumes2.yml"
-'3  22  0  ~/Volumes2.yml
-|4,51,22,0,1728301129,"~/Volumes2.yml"
-'4  22  0  ~/Volumes2.yml
-|4,52,22,0,1728301129,"~/Volumes2.yml"
-'5  5  13  ~/Volumes1.yml
-|4,53,5,13,1728296577,"~/Volumes1.yml"
-'6  18  2  ~/Volumes1.yml
-|4,54,18,2,1728296542,"~/Volumes1.yml"
-'7  18  2  ~/Volumes1.yml
-|4,55,18,2,1728296542,"~/Volumes1.yml"
-'8  6  14  ~/newtomcat/values.yaml
-|4,56,6,14,1728039937,"~/newtomcat/values.yaml"
-'9  82  11  ~/newjenkins/values.yaml
-|4,57,82,11,1728039646,"~/newjenkins/values.yaml"
+'0  10  12  ~/green-deployment.yml
+|4,48,10,12,1729251151,"~/green-deployment.yml"
+'1  10  12  ~/blue-deployment.yml
+|4,49,10,12,1729250932,"~/blue-deployment.yml"
+'2  24  26  ~/green-deployment.yml
+|4,50,24,26,1729250135,"~/green-deployment.yml"
+'3  24  26  ~/green-deployment.yml
+|4,51,24,26,1729250135,"~/green-deployment.yml"
+'4  5  13  ~/green-deployment.yml
+|4,52,5,13,1729249696,"~/green-deployment.yml"
+'5  5  13  ~/green-deployment.yml
+|4,53,5,13,1729249696,"~/green-deployment.yml"
+'6  5  13  ~/green-deployment.yml
+|4,54,5,13,1729249696,"~/green-deployment.yml"
+'7  5  13  ~/green-deployment.yml
+|4,55,5,13,1729249696,"~/green-deployment.yml"
+'8  23  2  ~/blue-deployment.yml
+|4,56,23,2,1729249672,"~/blue-deployment.yml"
+'9  25  2  ~/blue-deployment.yml
+|4,57,25,2,1729249672,"~/blue-deployment.yml"
 
 # Jumplist (newest first):
--'  1  2  ~/Autoscalling2.yml
-|4,39,1,2,1728918792,"~/Autoscalling2.yml"
--'  38  2  ~/Autoscalling.yml
-|4,39,38,2,1728906033,"~/Autoscalling.yml"
--'  38  2  ~/Autoscalling.yml
-|4,39,38,2,1728906033,"~/Autoscalling.yml"
--'  1  0  ~/Autoscalling.yml
-|4,39,1,0,1728905999,"~/Autoscalling.yml"
--'  1  0  ~/Autoscalling.yml
-|4,39,1,0,1728905999,"~/Autoscalling.yml"
--'  3  6  ~/Volumes2.yml
-|4,39,3,6,1728301178,"~/Volumes2.yml"
--'  3  6  ~/Volumes2.yml
-|4,39,3,6,1728301178,"~/Volumes2.yml"
--'  3  6  ~/Volumes2.yml
-|4,39,3,6,1728301178,"~/Volumes2.yml"
--'  3  6  ~/Volumes2.yml
-|4,39,3,6,1728301178,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301166,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301166,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301166,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301166,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301129,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301129,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301129,"~/Volumes2.yml"
--'  22  0  ~/Volumes2.yml
-|4,39,22,0,1728301129,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  1  0  ~/Volumes2.yml
-|4,39,1,0,1728301093,"~/Volumes2.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  5  13  ~/Volumes1.yml
-|4,39,5,13,1728296577,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296565,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  18  2  ~/Volumes1.yml
-|4,39,18,2,1728296542,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
--'  1  0  ~/Volumes1.yml
-|4,39,1,0,1728296074,"~/Volumes1.yml"
+-'  10  12  ~/green-deployment.yml
+|4,39,10,12,1729251151,"~/green-deployment.yml"
+-'  24  26  ~/green-deployment.yml
+|4,39,24,26,1729251142,"~/green-deployment.yml"
+-'  10  12  ~/blue-deployment.yml
+|4,39,10,12,1729250932,"~/blue-deployment.yml"
+-'  10  12  ~/blue-deployment.yml
+|4,39,10,12,1729250932,"~/blue-deployment.yml"
+-'  23  2  ~/blue-deployment.yml
+|4,39,23,2,1729250902,"~/blue-deployment.yml"
+-'  23  2  ~/blue-deployment.yml
+|4,39,23,2,1729250902,"~/blue-deployment.yml"
+-'  24  26  ~/green-deployment.yml
+|4,39,24,26,1729250135,"~/green-deployment.yml"
+-'  24  26  ~/green-deployment.yml
+|4,39,24,26,1729250135,"~/green-deployment.yml"
+-'  5  13  ~/green-deployment.yml
+|4,39,5,13,1729250124,"~/green-deployment.yml"
+-'  5  13  ~/green-deployment.yml
+|4,39,5,13,1729250124,"~/green-deployment.yml"
+-'  5  13  ~/green-deployment.yml
+|4,39,5,13,1729250124,"~/green-deployment.yml"
+-'  5  13  ~/green-deployment.yml
+|4,39,5,13,1729249696,"~/green-deployment.yml"
+-'  5  13  ~/green-deployment.yml
+|4,39,5,13,1729249696,"~/green-deployment.yml"
+-'  1  0  ~/green-deployment.yml
+|4,39,1,0,1729249685,"~/green-deployment.yml"
+-'  1  0  ~/green-deployment.yml
+|4,39,1,0,1729249685,"~/green-deployment.yml"
+-'  1  0  ~/green-deployment.yml
+|4,39,1,0,1729249685,"~/green-deployment.yml"
+-'  1  0  ~/green-deployment.yml
+|4,39,1,0,1729249685,"~/green-deployment.yml"
+-'  1  0  ~/green-deployment.yml
+|4,39,1,0,1729249685,"~/green-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  25  2  ~/blue-deployment.yml
+|4,39,25,2,1729249672,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  1  0  ~/blue-deployment.yml
+|4,39,1,0,1729249634,"~/blue-deployment.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729249070,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
+-'  12  17  ~/deployment1.yml
+|4,39,12,17,1729248814,"~/deployment1.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/green-deployment.yml
+	*	1729251150	0
+	"	10	12
+	^	10	13
+	.	10	12
+	+	5	13
+	+	24	26
+	+	10	12
+
+> ~/blue-deployment.yml
+	*	1729250931	0
+	"	10	12
+	^	10	13
+	.	11	0
+	+	5	12
+	+	10	12
+	+	11	0
+
+> ~/deployment1.yml
+	*	1729249069	0
+	"	12	17
+	^	12	18
+	.	12	17
+	+	25	2
+	+	24	69
+	+	24	26
+	+	11	0
+	+	10	12
+	+	12	17
 
 > ~/Autoscalling2.yml
 	*	1728918791	0
@@ -531,15 +561,6 @@
 	+	15	2
 	+	14	14
 	+	14	0
-
-> ~/deployment1.yml
-	*	1727088100	0
-	"	22	21
-	^	22	22
-	.	22	21
-	+	23	2
-	+	22	69
-	+	22	21
 
 > ~/deployment4.yml
 	*	1726988430	0

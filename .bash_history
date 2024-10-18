@@ -1,24 +1,3 @@
-kubectl get rs
-kubectl get rs -n test-ns
-kubectl get pods -n test-ns
-vim replica-set2.yml
-kubectl replace -f replica-set2.yml
-kubectl get rs -n test-ns
-kubectl get pods -n test-ns
-kubectl scale --replicas=1 -f replica-set2.yml
-kubectl get rs -n test-ns
-kubectl get pods -n test-ns
-kubectl delete -f replica-set2.yml
-kubectl delete -f namespace1.yml
-kubectl get pods --all-namepsaces
-kubectl get pods -A
-vim deployment1.yml
-kubectl apply -f deployment1.yml
-kubectl get deployments
-kubectl get rs
-kubectl get pods
-kubectl get all
-kubectl get nodes -o wide
 kubectl get pods -o wide
 kubectl delete -f deployment1.yml
 ls
@@ -516,3 +495,70 @@ kubectl apply -f Autoscallin2.yml
 kubectl apply -f Autoscalling2.yml
 kubectl autoscale deployment nginx-deployment --cpu-percent=50 --min=1 --max=20
 kubectl get hpa
+git add .
+git commit -m "k"
+git push origin main
+gcloud container clusters get-credentials my-first-cluster-1 --zone us-central1-c --project charged-hub-435315-m9
+kubectl get nodes
+ls
+vim deployment1.yml
+kubectl apply -f deployment1.yml
+kubectl get pods
+vim deployment1.yml
+kubectl describe pod nginx-deployment-fdf96855c-54kdb | less
+vim deployment1.yml
+kubectl set image deployment/nginx-deployment nginx=nginx:1.27
+kubectl get pods
+kubectl describe pods nginx-deployment-8555d547fb-2wznv | less   
+kubectl delete -f deployment1.yml
+vim deployment1.yml
+kubectl apply -f deployment1.yml
+kubectl get pods
+vim deployment1.yml
+kubectl describe pods nginx-deployment-fdf96855c-4986b| lessq
+kubectl describe pods nginx-deployment-fdf96855c-4986b| less
+kubectl set image deployment/nginx-deployment nginx=nginx:1.27
+kubectl get pods
+kubectl describe pods nginx-deployment-8555d547fb-n27wf | less
+cp deployment1.yml blue-deployment.yml
+cp deployment1.yml green-deployment.yml
+vim blue-deployment.yml
+vim green-deployment.yml
+kubectl apply -f blue-deployemtn.yml
+kubectl apply -f blue-deployemt.yml
+kubectl apply -f blue-deployment.yml
+kubectl get pods
+kubectl delete -f deployment1.yml
+kubectl get pods
+kubectl describe pods blue-nginx-deployment-fdf96855c-7xsdp|less
+kubectl apply -f green-deployment.yml
+kubectl describe pods
+q
+kubectl get pods
+kubectl describe pods green-nginx-deployment-fdf96855c-8jvfp|less
+kubectl delete -f green-deployment.yml
+vim green-deployment.yml
+kubectl apply -f green-deployment.yml
+kubectl get pods
+kubectl describe pods green-nginx-deployment-8555d547fb-jpzvz | less
+kubectl describe pods blue-nginx-deployment-fdf96855c-7xsdp | less
+kubectl get pods
+kubectl delete -f blue-deployment.yml
+kubectl get pods
+kubectl delete -f green-deployment.yml
+vim blue-deployment.yml
+kubectl apply -f blue-deployment.yml
+kubectl get pods
+kubectl describe pods blue-nginx-deployment-fdf96855c-fk86f | less
+vim green-deployment.yml
+kubectl scale deployment --replicas=2 -f blue-deployment.yml
+kubectl scale --replicas=2 -f blue-deployment.yml
+kubectl get pods
+kubectl apply -f green-deployment.yml
+kubectl get pods
+kubectl scale --replicas=1 -f blue-deployment.yml
+kubectl scale --replicas=2 -f green-deployment.yml
+kubectl get pods
+kubectl delete -f blue-deployment.yml
+kubectl scale --replicas=3 -f green-deployment.yml
+kubectl get pods
